@@ -13,7 +13,7 @@ class weichat{
     public function callbackWeiChat(){
         $returnStr = $_GET['echostr'];
         if ($this->checkSignature()){
-            echo $returnStr;
+            echo $returnStr.'111111111111long';
         }else{
             echo "<b>Error:</b>".$returnStr;
         }
