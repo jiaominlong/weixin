@@ -29,7 +29,7 @@ class weichat{
         $tmpStr = implode($tmpArr);
         $tmpStr = sha1($tmpStr);
         if($tmpStr == $signature){
-            return false;
+            return true;
         }else{
             return false;
         }
