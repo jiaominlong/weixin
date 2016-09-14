@@ -7,7 +7,7 @@
  */
 require_once dirname(__FILE__).'/weixin/weichat.php';
 
-
+$weixin = new weichat();
 
 if (isset($_GET['echostr'])){
     $weixin-> callbackWeiChat();
