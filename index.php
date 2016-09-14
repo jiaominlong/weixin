@@ -5,7 +5,7 @@
  * Date: 2016/9/14
  * Time: 15:50
  */
-require_once dirname(__FILE__).'weixin/weichat.php';
+require_once dirname(__FILE__).'/weixin/weichat.php';
 
 
 
