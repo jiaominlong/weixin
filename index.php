@@ -8,7 +8,7 @@
 require_once dirname(__FILE__).'/weixin/weichat.php';
 
 
-if (isset($_GET['echostr'])){
+if (isset($_GET['nonce'])){
     $weixin = new weichat();
     $weixin-> callbackWeiChat();
 }else{
