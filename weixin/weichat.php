@@ -5,7 +5,7 @@
  * Date: 2016/9/14
  * Time: 15:08
  */
-require_once dirname(__FILE__).'/config.php';
+require_once dirname(__FILE__).'../config.php';
 
 
 class weichat{
